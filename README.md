@@ -4,7 +4,7 @@
 You'll need the following:
 - [Cloud.gov account](https://cloud.gov/docs/getting-started/accounts/)
 - [cf-cli](https://github.com/cloudfoundry/cli#installers-and-compressed-binaries)
-- [jq](https://stedolan.github.io/jq/) Used to retrive VCAP_SERVICES for postgresql from Cloud.gov's service broker. E.g. `brew install jq`
+- [jq](https://stedolan.github.io/jq/) Used to retrive VCAP_SERVICES from Cloud.gov's service broker. E.g. `brew install jq`
 
 ### Installation
 - [Login to Cloud.gov Dashboard](https://login.fr.cloud.gov/login)
