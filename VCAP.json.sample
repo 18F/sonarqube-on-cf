@@ -1,0 +1,61 @@
+{
+    "staging_env_json": {},
+    "running_env_json": {},
+    "environment_json": "<omitted>",
+    "system_env_json": {
+      "VCAP_SERVICES": {
+        "aws-rds": [
+          {
+            "label": "aws-rds",
+            "provider": null,
+            "plan": "shared-mysql",
+            "name": "foundme-name",
+            "tags": [
+              "database",
+              "RDS"
+            ],
+            "instance_name": "foundme-instance_name",
+            "binding_name": null,
+            "credentials": {
+              "db_name": "foundme-db_name",
+              "host": "foundme-host",
+              "password": "foundme-password",
+              "port": "foundme-port",
+              "uri": "foundme-uri",
+              "username": "foundme-username"
+            },
+            "syslog_drain_url": null,
+            "volume_mounts": []
+          }
+        ]
+      }
+    },
+    "application_env_json": {
+      "VCAP_APPLICATION": {
+        "cf_api": "https://api.fr.cloud.gov",
+        "limits": {
+          "fds": 16384,
+          "mem": 4096,
+          "disk": 1024
+        },
+        "application_name": "foundme-application_name",
+        "application_uris": [
+          "foundme-application_uris"
+        ],
+        "name": "foundme-name",
+        "space_name": "foundme-space_name",
+        "space_id": "",
+        "organization_id": "",
+        "organization_name": "",
+        "uris": [
+          "foundme-uris"
+        ],
+        "users": null,
+        "process_id": "",
+        "process_type": "web",
+        "application_id": "",
+        "version": "",
+        "application_version": ""
+      }
+    }
+  }
